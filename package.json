@@ -1,0 +1,25 @@
+{
+  "name": "garajos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GarajOS monorepo for rider, garage, admin, and backend products.",
+  "workspaces": [
+    "apps/*",
+    "backend/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:rider": "npm run dev --workspace @garajos/rider-app",
+    "dev:garage": "npm run dev --workspace @garajos/garage-app",
+    "dev:admin": "npm run dev --workspace @garajos/admin-panel",
+    "dev:api": "npm run dev --workspace @garajos/api",
+    "build": "npm run build --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "db:generate": "npm run generate --workspace @garajos/prisma"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  }
+}

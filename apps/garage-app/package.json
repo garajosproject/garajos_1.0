@@ -1,0 +1,11 @@
+{
+  "name": "@garajos/garage-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"Bootstrap Expo app in apps/garage-app\"",
+    "build": "echo \"No build configured yet\"",
+    "lint": "echo \"No lint configured yet\"",
+    "test": "echo \"No tests configured yet\""
+  }
+}

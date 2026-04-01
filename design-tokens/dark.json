@@ -1,0 +1,147 @@
+{
+  "color": {
+    "surface": {
+      "background": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Page / app background"
+      },
+      "card": {
+        "value": "#0A0A0A",
+        "type": "color",
+        "description": "Default card surface"
+      },
+      "cardAlt": {
+        "value": "#171717",
+        "type": "color",
+        "description": "Alternative card / secondary panel"
+      },
+      "cardSoft": {
+        "value": "#1A1A1A",
+        "type": "color",
+        "description": "Soft card / subtle container"
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "#FFFFFF",
+        "type": "color",
+        "description": "Primary text"
+      },
+      "subtext": {
+        "value": "#A3A3A3",
+        "type": "color",
+        "description": "Secondary / supporting text"
+      },
+      "muted": {
+        "value": "#737373",
+        "type": "color",
+        "description": "Muted / disabled / placeholder text"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "#3F3F3F",
+        "type": "color",
+        "description": "Default dividers, card borders"
+      },
+      "input": {
+        "value": "#E5E5E5",
+        "type": "color",
+        "description": "Input field border"
+      }
+    },
+    "brand": {
+      "primary": {
+        "value": "{brand.primary}",
+        "type": "color"
+      }
+    },
+    "semantic": {
+      "success": {
+        "value": "{semantic.success}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{semantic.danger}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{semantic.warning}",
+        "type": "color"
+      }
+    },
+    "button": {
+      "primary": {
+        "background": {
+          "value": "#F97316",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "border": {
+          "value": "#F97316",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "background": {
+          "value": "#171717",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "border": {
+          "value": "#3F3F3F",
+          "type": "color"
+        }
+      },
+      "outline": {
+        "background": {
+          "value": "transparent",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "border": {
+          "value": "#3F3F3F",
+          "type": "color"
+        }
+      },
+      "ghost": {
+        "background": {
+          "value": "transparent",
+          "type": "color"
+        },
+        "text": {
+          "value": "#A3A3A3",
+          "type": "color"
+        },
+        "border": {
+          "value": "transparent",
+          "type": "color"
+        }
+      },
+      "destructive": {
+        "background": {
+          "value": "#DC2626",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "border": {
+          "value": "#DC2626",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

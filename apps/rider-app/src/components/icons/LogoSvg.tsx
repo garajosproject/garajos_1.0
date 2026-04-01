@@ -1,0 +1,17 @@
+import React from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+interface Props {
+  size?: number;
+}
+
+export default function LogoSvg({ size = 120 }: Props) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 44 44" fill="none">
+      <Path
+        d="M22.0863 0C33.3491 0 42.6413 8.39774 44 19.25H28.7496L33.798 14.2213L29.8941 10.3326L24.8471 15.36V8.25H19.3255V15.3586L14.2784 10.3326L10.3745 14.2213L15.4229 19.25H8.28235V24.75H15.4202L10.3718 29.7787L14.2771 33.6674L19.3255 28.6373V35.75H24.8471V28.6373L29.8968 33.6674L33.8007 29.7773L28.7537 24.75H44C42.6413 35.6023 33.3491 44 22.0863 44C9.88836 44 0 34.1503 0 22C0 9.84974 9.88836 0 22.0863 0Z"
+        fill="#F97316"
+      />
+    </Svg>
+  );
+}

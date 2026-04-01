@@ -1,0 +1,16 @@
+node_modules
+.DS_Store
+dist
+build
+.turbo
+.next
+.expo
+.expo-shared
+coverage
+*.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.env
+.env.local
+.claude

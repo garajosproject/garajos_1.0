@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "GarajOS",
+    "slug": "garajos-rider",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.svg",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#000000",
+    "splash": {
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.garajos.rider"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000000"
+      },
+      "package": "com.garajos.rider"
+    },
+    "web": {
+      "bundler": "metro",
+      "backgroundColor": "#000000"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "@garajos/prisma",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "generate": "echo \"Install prisma CLI and run prisma generate\""
+  }
+}

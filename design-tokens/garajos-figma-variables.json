@@ -1,0 +1,698 @@
+[
+  {
+    "GarajOS Design System": {
+      "modes": {
+        "Dark": {
+          "colors": {
+            "brand": {
+              "primary": {
+                "$scopes": ["ALL_FILLS", "STROKE_COLOR"],
+                "$type": "color",
+                "$value": "#F97316",
+                "$description": "Brand primary orange — CTAs, active states, highlights"
+              }
+            },
+            "surface": {
+              "background": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#000000",
+                "$description": "Page / app background"
+              },
+              "card": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#0A0A0A",
+                "$description": "Default card surface"
+              },
+              "card-alt": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#171717",
+                "$description": "Alternative card / secondary panel"
+              },
+              "card-soft": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#1A1A1A",
+                "$description": "Soft card / subtle container"
+              }
+            },
+            "text": {
+              "primary": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#FFFFFF",
+                "$description": "Primary body text"
+              },
+              "subtext": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#A3A3A3",
+                "$description": "Secondary / supporting text"
+              },
+              "muted": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#737373",
+                "$description": "Muted / placeholder / disabled text"
+              }
+            },
+            "border": {
+              "default": {
+                "$scopes": ["ALL_FILLS", "STROKE_COLOR"],
+                "$type": "color",
+                "$value": "#3F3F3F",
+                "$description": "Dividers, card borders"
+              },
+              "input": {
+                "$scopes": ["ALL_FILLS", "STROKE_COLOR"],
+                "$type": "color",
+                "$value": "#E5E5E5",
+                "$description": "Input field border"
+              }
+            },
+            "semantic": {
+              "success": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#16A34A",
+                "$description": "Success / active green"
+              },
+              "danger": {
+                "$scopes": ["ALL_FILLS", "STROKE_COLOR"],
+                "$type": "color",
+                "$value": "#DC2626",
+                "$description": "Danger / destructive / error red"
+              },
+              "warning": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#EAB308",
+                "$description": "Warning yellow"
+              }
+            },
+            "badge": {
+              "active": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#052E16"
+                },
+                "border": {
+                  "$scopes": ["STROKE_COLOR"],
+                  "$type": "color",
+                  "$value": "#166534"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#4ADE80"
+                }
+              },
+              "warning": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#422006"
+                },
+                "border": {
+                  "$scopes": ["STROKE_COLOR"],
+                  "$type": "color",
+                  "$value": "#92400E"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#FCD34D"
+                }
+              },
+              "expired": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#450A0A"
+                },
+                "border": {
+                  "$scopes": ["STROKE_COLOR"],
+                  "$type": "color",
+                  "$value": "#991B1B"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#F87171"
+                }
+              },
+              "dashboard": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#171717"
+                },
+                "border": {
+                  "$scopes": ["STROKE_COLOR"],
+                  "$type": "color",
+                  "$value": "#F97316"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#F97316"
+                }
+              }
+            },
+            "button": {
+              "primary": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#F97316"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#000000"
+                }
+              },
+              "secondary": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#171717"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#FFFFFF"
+                }
+              },
+              "destructive": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#DC2626"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#FFFFFF"
+                }
+              }
+            }
+          },
+          "spacing": {
+            "xs": {
+              "$scopes": ["GAP", "WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 8,
+              "$description": "8px"
+            },
+            "sm": {
+              "$scopes": ["GAP", "WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 12,
+              "$description": "12px"
+            },
+            "md": {
+              "$scopes": ["GAP", "WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 16,
+              "$description": "16px"
+            },
+            "lg": {
+              "$scopes": ["GAP", "WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 24,
+              "$description": "24px"
+            },
+            "xl": {
+              "$scopes": ["GAP", "WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 32,
+              "$description": "32px"
+            }
+          },
+          "radius": {
+            "sm": {
+              "$scopes": ["CORNER_RADIUS"],
+              "$type": "float",
+              "$value": 8,
+              "$description": "Cards, inputs"
+            },
+            "md": {
+              "$scopes": ["CORNER_RADIUS"],
+              "$type": "float",
+              "$value": 12,
+              "$description": "Buttons, modals"
+            },
+            "lg": {
+              "$scopes": ["CORNER_RADIUS"],
+              "$type": "float",
+              "$value": 16
+            },
+            "xl": {
+              "$scopes": ["CORNER_RADIUS"],
+              "$type": "float",
+              "$value": 24
+            },
+            "pill": {
+              "$scopes": ["CORNER_RADIUS"],
+              "$type": "float",
+              "$value": 9999,
+              "$description": "Badges, tags, pill buttons"
+            }
+          },
+          "typography": {
+            "font-family": {
+              "brand": {
+                "$scopes": ["FONT_FAMILY"],
+                "$type": "string",
+                "$value": "Orbitron",
+                "$description": "Page titles and wordmark only"
+              },
+              "body": {
+                "$scopes": ["FONT_FAMILY"],
+                "$type": "string",
+                "$value": "Lato",
+                "$description": "All other text"
+              }
+            },
+            "font-size": {
+              "page-title": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 24,
+                "$description": "Orbitron SemiBold — page titles only"
+              },
+              "heading-lg": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 24,
+                "$description": "Lato Bold"
+              },
+              "heading-md": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 20,
+                "$description": "Lato Bold"
+              },
+              "heading-sm": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 18,
+                "$description": "Lato Bold"
+              },
+              "body": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 16,
+                "$description": "Lato Regular"
+              },
+              "body-sm": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 14,
+                "$description": "Lato Regular"
+              },
+              "caption": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 12,
+                "$description": "Lato Regular"
+              },
+              "label": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 11,
+                "$description": "Lato Bold — UPPERCASE + tracked"
+              }
+            },
+            "font-weight": {
+              "regular": {
+                "$scopes": ["FONT_WEIGHT"],
+                "$type": "float",
+                "$value": 400
+              },
+              "semibold": {
+                "$scopes": ["FONT_WEIGHT"],
+                "$type": "float",
+                "$value": 600
+              },
+              "bold": {
+                "$scopes": ["FONT_WEIGHT"],
+                "$type": "float",
+                "$value": 700
+              }
+            }
+          }
+        },
+        "Light": {
+          "colors": {
+            "brand": {
+              "primary": {
+                "$scopes": ["ALL_FILLS", "STROKE_COLOR"],
+                "$type": "color",
+                "$value": "#F97316",
+                "$description": "Brand primary orange — CTAs, active states, highlights"
+              }
+            },
+            "surface": {
+              "background": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#FFFFFF",
+                "$description": "Page / app background"
+              },
+              "card": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#FAFAFA",
+                "$description": "Default card surface"
+              },
+              "card-alt": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#F5F5F5",
+                "$description": "Alternative card / secondary panel"
+              },
+              "card-soft": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#EFEFEF",
+                "$description": "Soft card / subtle container"
+              }
+            },
+            "text": {
+              "primary": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#0A0A0A",
+                "$description": "Primary body text"
+              },
+              "subtext": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#525252",
+                "$description": "Secondary / supporting text"
+              },
+              "muted": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#A3A3A3",
+                "$description": "Muted / placeholder / disabled text"
+              }
+            },
+            "border": {
+              "default": {
+                "$scopes": ["ALL_FILLS", "STROKE_COLOR"],
+                "$type": "color",
+                "$value": "#E5E5E5",
+                "$description": "Dividers, card borders"
+              },
+              "input": {
+                "$scopes": ["ALL_FILLS", "STROKE_COLOR"],
+                "$type": "color",
+                "$value": "#3F3F3F",
+                "$description": "Input field border"
+              }
+            },
+            "semantic": {
+              "success": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#16A34A",
+                "$description": "Success / active green"
+              },
+              "danger": {
+                "$scopes": ["ALL_FILLS", "STROKE_COLOR"],
+                "$type": "color",
+                "$value": "#DC2626",
+                "$description": "Danger / destructive / error red"
+              },
+              "warning": {
+                "$scopes": ["ALL_FILLS"],
+                "$type": "color",
+                "$value": "#EAB308",
+                "$description": "Warning yellow"
+              }
+            },
+            "badge": {
+              "active": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#052E16"
+                },
+                "border": {
+                  "$scopes": ["STROKE_COLOR"],
+                  "$type": "color",
+                  "$value": "#166534"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#4ADE80"
+                }
+              },
+              "warning": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#422006"
+                },
+                "border": {
+                  "$scopes": ["STROKE_COLOR"],
+                  "$type": "color",
+                  "$value": "#92400E"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#FCD34D"
+                }
+              },
+              "expired": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#450A0A"
+                },
+                "border": {
+                  "$scopes": ["STROKE_COLOR"],
+                  "$type": "color",
+                  "$value": "#991B1B"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#F87171"
+                }
+              },
+              "dashboard": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#F5F5F5"
+                },
+                "border": {
+                  "$scopes": ["STROKE_COLOR"],
+                  "$type": "color",
+                  "$value": "#F97316"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#F97316"
+                }
+              }
+            },
+            "button": {
+              "primary": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#F97316"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#FFFFFF"
+                }
+              },
+              "secondary": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#F5F5F5"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#0A0A0A"
+                }
+              },
+              "destructive": {
+                "background": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#DC2626"
+                },
+                "text": {
+                  "$scopes": ["ALL_FILLS"],
+                  "$type": "color",
+                  "$value": "#FFFFFF"
+                }
+              }
+            }
+          },
+          "spacing": {
+            "xs": {
+              "$scopes": ["GAP", "WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 8,
+              "$description": "8px"
+            },
+            "sm": {
+              "$scopes": ["GAP", "WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 12,
+              "$description": "12px"
+            },
+            "md": {
+              "$scopes": ["GAP", "WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 16,
+              "$description": "16px"
+            },
+            "lg": {
+              "$scopes": ["GAP", "WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 24,
+              "$description": "24px"
+            },
+            "xl": {
+              "$scopes": ["GAP", "WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 32,
+              "$description": "32px"
+            }
+          },
+          "radius": {
+            "sm": {
+              "$scopes": ["CORNER_RADIUS"],
+              "$type": "float",
+              "$value": 8,
+              "$description": "Cards, inputs"
+            },
+            "md": {
+              "$scopes": ["CORNER_RADIUS"],
+              "$type": "float",
+              "$value": 12,
+              "$description": "Buttons, modals"
+            },
+            "lg": {
+              "$scopes": ["CORNER_RADIUS"],
+              "$type": "float",
+              "$value": 16
+            },
+            "xl": {
+              "$scopes": ["CORNER_RADIUS"],
+              "$type": "float",
+              "$value": 24
+            },
+            "pill": {
+              "$scopes": ["CORNER_RADIUS"],
+              "$type": "float",
+              "$value": 9999,
+              "$description": "Badges, tags, pill buttons"
+            }
+          },
+          "typography": {
+            "font-family": {
+              "brand": {
+                "$scopes": ["FONT_FAMILY"],
+                "$type": "string",
+                "$value": "Orbitron",
+                "$description": "Page titles and wordmark only"
+              },
+              "body": {
+                "$scopes": ["FONT_FAMILY"],
+                "$type": "string",
+                "$value": "Lato",
+                "$description": "All other text"
+              }
+            },
+            "font-size": {
+              "page-title": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 24,
+                "$description": "Orbitron SemiBold — page titles only"
+              },
+              "heading-lg": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 24,
+                "$description": "Lato Bold"
+              },
+              "heading-md": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 20,
+                "$description": "Lato Bold"
+              },
+              "heading-sm": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 18,
+                "$description": "Lato Bold"
+              },
+              "body": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 16,
+                "$description": "Lato Regular"
+              },
+              "body-sm": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 14,
+                "$description": "Lato Regular"
+              },
+              "caption": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 12,
+                "$description": "Lato Regular"
+              },
+              "label": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": 11,
+                "$description": "Lato Bold — UPPERCASE + tracked"
+              }
+            },
+            "font-weight": {
+              "regular": {
+                "$scopes": ["FONT_WEIGHT"],
+                "$type": "float",
+                "$value": 400
+              },
+              "semibold": {
+                "$scopes": ["FONT_WEIGHT"],
+                "$type": "float",
+                "$value": 600
+              },
+              "bold": {
+                "$scopes": ["FONT_WEIGHT"],
+                "$type": "float",
+                "$value": 700
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
