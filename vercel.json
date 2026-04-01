@@ -1,0 +1,10 @@
+{
+  "name": "garajsos1.2",
+  "buildCommand": "npm install --legacy-peer-deps && cd apps/rider-app && npx expo export --platform web",
+  "outputDirectory": "apps/rider-app/dist",
+  "installCommand": "npm install --legacy-peer-deps",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
