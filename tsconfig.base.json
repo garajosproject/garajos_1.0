@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@garajos/config": [
+        "packages/config/src"
+      ],
+      "@garajos/ui": [
+        "packages/ui/src"
+      ],
+      "@garajos/utils": [
+        "packages/utils/src"
+      ]
+    }
+  }
+}

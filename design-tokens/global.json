@@ -1,0 +1,220 @@
+{
+  "brand": {
+    "primary": {
+      "value": "#F97316",
+      "type": "color",
+      "description": "Brand primary orange — used for CTAs, active states, highlights"
+    }
+  },
+  "semantic": {
+    "success": {
+      "value": "#16A34A",
+      "type": "color",
+      "description": "Success / active state"
+    },
+    "danger": {
+      "value": "#DC2626",
+      "type": "color",
+      "description": "Danger / destructive / error state"
+    },
+    "warning": {
+      "value": "#EAB308",
+      "type": "color",
+      "description": "Warning state"
+    }
+  },
+  "badge": {
+    "active": {
+      "background": {
+        "value": "#052E16",
+        "type": "color"
+      },
+      "border": {
+        "value": "#166534",
+        "type": "color"
+      },
+      "text": {
+        "value": "#4ADE80",
+        "type": "color"
+      }
+    },
+    "warning": {
+      "background": {
+        "value": "#422006",
+        "type": "color"
+      },
+      "border": {
+        "value": "#92400E",
+        "type": "color"
+      },
+      "text": {
+        "value": "#FCD34D",
+        "type": "color"
+      }
+    },
+    "expired": {
+      "background": {
+        "value": "#450A0A",
+        "type": "color"
+      },
+      "border": {
+        "value": "#991B1B",
+        "type": "color"
+      },
+      "text": {
+        "value": "#F87171",
+        "type": "color"
+      }
+    },
+    "dashboard": {
+      "background": {
+        "value": "#171717",
+        "type": "color"
+      },
+      "border": {
+        "value": "#F97316",
+        "type": "color"
+      },
+      "text": {
+        "value": "#F97316",
+        "type": "color"
+      }
+    }
+  },
+  "font": {
+    "family": {
+      "brand": {
+        "value": "Orbitron",
+        "type": "fontFamilies",
+        "description": "Used for page titles and brand wordmark only"
+      },
+      "body": {
+        "value": "Lato",
+        "type": "fontFamilies",
+        "description": "Used for all other text"
+      }
+    },
+    "weight": {
+      "regular": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "semiBold": {
+        "value": "600",
+        "type": "fontWeights"
+      }
+    },
+    "size": {
+      "pageTitleOrbitron": {
+        "value": "24",
+        "type": "fontSizes",
+        "description": "Orbitron SemiBold — page titles only"
+      },
+      "headingLG": {
+        "value": "24",
+        "type": "fontSizes"
+      },
+      "headingMD": {
+        "value": "20",
+        "type": "fontSizes"
+      },
+      "headingSM": {
+        "value": "18",
+        "type": "fontSizes"
+      },
+      "body": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "bodySM": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "caption": {
+        "value": "12",
+        "type": "fontSizes"
+      },
+      "label": {
+        "value": "11",
+        "type": "fontSizes",
+        "description": "Lato Bold — UPPERCASE + tracked"
+      }
+    },
+    "letterSpacing": {
+      "pageTitle": {
+        "value": "0.48",
+        "type": "letterSpacing"
+      },
+      "label": {
+        "value": "1.32",
+        "type": "letterSpacing"
+      },
+      "none": {
+        "value": "0",
+        "type": "letterSpacing"
+      }
+    }
+  },
+  "spacing": {
+    "xs": {
+      "value": "8",
+      "type": "spacing",
+      "description": "8px"
+    },
+    "sm": {
+      "value": "12",
+      "type": "spacing",
+      "description": "12px"
+    },
+    "md": {
+      "value": "16",
+      "type": "spacing",
+      "description": "16px"
+    },
+    "lg": {
+      "value": "24",
+      "type": "spacing",
+      "description": "24px"
+    },
+    "xl": {
+      "value": "32",
+      "type": "spacing",
+      "description": "32px"
+    }
+  },
+  "radius": {
+    "sm": {
+      "value": "8",
+      "type": "borderRadius",
+      "description": "Cards, inputs, small containers"
+    },
+    "md": {
+      "value": "12",
+      "type": "borderRadius",
+      "description": "Buttons, modal containers"
+    },
+    "lg": {
+      "value": "16",
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": "24",
+      "type": "borderRadius"
+    },
+    "pill": {
+      "value": "9999",
+      "type": "borderRadius",
+      "description": "Badges, tags, pill buttons"
+    }
+  },
+  "borderWidth": {
+    "default": {
+      "value": "1",
+      "type": "borderWidth"
+    }
+  }
+}

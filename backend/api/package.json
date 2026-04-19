@@ -1,0 +1,11 @@
+{
+  "name": "@garajos/api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node src/main.js",
+    "build": "echo \"NestJS bootstrap pending\"",
+    "lint": "echo \"No lint configured yet\"",
+    "test": "echo \"No tests configured yet\""
+  }
+}

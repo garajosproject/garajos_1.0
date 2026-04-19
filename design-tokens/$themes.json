@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dark",
+    "name": "Dark",
+    "selectedTokenSets": {
+      "global": "enabled",
+      "dark": "enabled",
+      "light": "disabled"
+    },
+    "group": "Mode"
+  },
+  {
+    "id": "light",
+    "name": "Light",
+    "selectedTokenSets": {
+      "global": "enabled",
+      "dark": "disabled",
+      "light": "enabled"
+    },
+    "group": "Mode"
+  }
+]

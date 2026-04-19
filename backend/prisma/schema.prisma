@@ -1,0 +1,103 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  RIDER
+  GARAGE_OWNER
+  GARAGE_STAFF
+  SELLER
+  INFLUENCER
+  ADMIN
+}
+
+enum DocumentType {
+  INSURANCE
+  PUC
+  RC
+}
+
+enum BookingStatus {
+  REQUESTED
+  ACCEPTED
+  DIAGNOSIS
+  ESTIMATE_SENT
+  APPROVED
+  REPAIR
+  COMPLETED
+  CANCELLED
+}
+
+model User {
+  id        String    @id @default(cuid())
+  phone     String    @unique
+  email     String?   @unique
+  name      String?
+  role      UserRole  @default(RIDER)
+  location  String?
+  bikeType  String?
+  vehicles  Vehicle[]
+  bookings  Booking[]
+  createdAt DateTime  @default(now())
+}
+
+model Vehicle {
+  id                 String            @id @default(cuid())
+  userId             String
+  brand              String
+  model              String
+  year               Int
+  registrationNumber String            @unique
+  owner              User              @relation(fields: [userId], references: [id])
+  documents          VehicleDocument[]
+  bookings           Booking[]
+}
+
+model VehicleDocument {
+  id              String       @id @default(cuid())
+  vehicleId       String
+  type            DocumentType
+  url             String
+  expiryDate      DateTime?
+  reminderEnabled Boolean      @default(true)
+  vehicle         Vehicle      @relation(fields: [vehicleId], references: [id])
+}
+
+model Garage {
+  id                 String    @id @default(cuid())
+  name               String
+  address            String
+  verificationStatus String
+  rating             Float     @default(0)
+  services           GarageService[]
+  bookings           Booking[]
+}
+
+model GarageService {
+  id              String  @id @default(cuid())
+  garageId        String
+  name            String
+  priceMin        Float?
+  priceMax        Float?
+  durationMinutes Int?
+  garage          Garage  @relation(fields: [garageId], references: [id])
+}
+
+model Booking {
+  id             String        @id @default(cuid())
+  userId         String
+  vehicleId      String
+  garageId       String
+  status         BookingStatus @default(REQUESTED)
+  issueNotes     String?
+  estimatedPrice Float?
+  scheduledAt    DateTime?
+  rider          User          @relation(fields: [userId], references: [id])
+  vehicle        Vehicle       @relation(fields: [vehicleId], references: [id])
+  garage         Garage        @relation(fields: [garageId], references: [id])
+}
